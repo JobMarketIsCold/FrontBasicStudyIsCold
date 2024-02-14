@@ -1,21 +1,48 @@
 <!DOCTYPE html>
 <html lang="ko">
 	<head>
-		<meta name="description" content="THis is my website" />
+		<title>Home - My first website.</title>
+		<style>
+			html {
+				background-color: red;
+			}
+			body {
+				margin: 0;
+				padding: 20px;
+				background-color: thistle;
+			}
+			div {
+				padding: 10px;
+			}
+			#first {
+				background-color: white;
+				height: 150px;
+				width: 150px;
+			}
+			#second {
+				background-color: green;
+				height: 100px;
+				width: 100px;
+			}
+			#third {
+				background-color: red;
+				height: 60px;
+				width: 60px;
+			}
+			#fourth {
+				background-color: aqua;
+				height: 30px;
+				width: 30px;
+			}
+		</style>
 	</head>
 	<body>
-		<form>
-			<div>
-				<label for="website">Website</label>
-				<input id="website" required placeholder="Name" type="date" />
+		<div id="first">
+			<div id="second">
+				<div id="third">
+					<div id="fourth"></div>
+				</div>
 			</div>
-
-			<div>
-				<label for="website">Website</label>
-				<input id="website" required placeholder="Name" type="date" />
-			</div>
-
-			<input type="submit" value="Create Account" />
-		</form>
+		</div>
 	</body>
 </html>
