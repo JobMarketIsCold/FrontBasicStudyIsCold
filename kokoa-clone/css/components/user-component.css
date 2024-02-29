@@ -1,6 +1,11 @@
 .user-component {
 	justify-content: space-between;
 	margin-bottom: 25px;
+	transition: background-color 0.3s ease-in-out;
+}
+
+.user-component:hover {
+	background-color: rgba(0, 0, 0, 0.1);
 }
 
 .user-component,
@@ -55,4 +60,15 @@
 .user-component__time {
 	margin-bottom: 10px;
 	display: block;
+}
+
+.user-component__phone-text {
+	display: flex;
+	align-items: center;
+}
+
+.user-component__phone-text i {
+	margin-top: 8px;
+	margin-left: 5px;
+	color: red;
 }

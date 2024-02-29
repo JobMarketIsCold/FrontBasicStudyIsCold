@@ -1,6 +1,7 @@
 :root {
 	--yellow: rgba(250, 225, 0);
 	--gray: rgba(0, 0, 0, 0.4);
+	--chat-background: #abc1d1;
 	--horizontal-space: 25px;
 	--main-border: 1px solid rgba(0, 0, 0, 0.2);
 }
