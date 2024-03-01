@@ -8,6 +8,7 @@
 	top: 25px;
 	box-sizing: border-box;
 	margin-bottom: 10px;
+	z-index: 10;
 }
 
 .screen-header__title {
@@ -29,4 +30,17 @@
 	position: absolute;
 	bottom: 16px;
 	right: 3px;
+}
+
+@keyframes rotateCog {
+	from {
+		transform: none;
+	}
+	to {
+		transform: rotateX(360deg);
+	}
+}
+
+.screen-header__icons .fa-gear:hover {
+	animation: rotateCog 1s linear infinite;
 }
